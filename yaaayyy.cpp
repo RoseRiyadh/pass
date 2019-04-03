@@ -113,7 +113,7 @@ int main()
 					goto af;
 				}
 			}
-			else if (op1 == 2)//COMPLETE THIS YOO BITCH!
+			else if (op1 == 2)
 			{
 				cout << "\nWhich account you want edit?\n";
 				for (i = 1; i < f; i++)
@@ -130,13 +130,11 @@ int main()
 				goto af;
 
 			}
-			else if (op1 == 3)/*C O M P L E T E    T H I S !!!
-							  DELETING ACCOUNTS
-							  */
+			else if (op1 == 3)
 			{
 			
 				cout << "Which account you want to delete?\n";
-				for (i = 1; i < f; i++)//THIS NEEDS COMPLETING !!!
+				for (i = 1; i < f; i++)
 				{
 					cout << "\t" << i << "-" << c[i] << "\n";
 				}
